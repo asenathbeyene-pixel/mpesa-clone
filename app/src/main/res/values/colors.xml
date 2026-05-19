@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="safaricom_green">#007A33</color>
+    <color name="safaricom_light_green">#E8F5E9</color>
+    <color name="safaricom_orange">#E41B23</color>
+    <color name="text_dark">#333333</color>
+    <color name="text_muted">#777777</color>
+    <color name="input_line">#BDBDBD</color>
+</resources>

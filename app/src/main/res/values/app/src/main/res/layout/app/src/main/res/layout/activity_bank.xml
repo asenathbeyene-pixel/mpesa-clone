@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.apple.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="✕ SEND TO BANK"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_dark"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECT BANK"
+        android:layout_marginTop="20dp"
+        android:textSize="11dp"/>
+    <Spinner
+        android:id="@+id/bankSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BANK ACCOUNT NUMBER"
+        android:layout_marginTop="20dp"
+        android:textSize="11dp"/>
+    <EditText
+        android:id="@+id/etAccountNumber"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Enter Bank Account Number"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AMOUNT"
+        android:layout_marginTop="20dp"
+        android:textSize="11dp"/>
+    <EditText
+        android:id="@+id/etAmount"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Birr 0"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="CONTINUE"
+        android:layout_marginTop="40dp"
+        app:cornerRadius="26dp" />
+</LinearLayout>
